@@ -1,4 +1,4 @@
-Hello! This is a MLOps project based on the [Kaggle Used Car Auction Prices dataset](https://www.kaggle.com/datasets/tunguz/used-car-auction-prices). The goal is to master the full lifetime cycle of ML model development. Project is fully created on the Yandex Cloud and covers:
+This is a MLOps project based on the [Kaggle Used Car Auction Prices dataset](https://www.kaggle.com/datasets/tunguz/used-car-auction-prices). The goal is to master the full lifetime cycle of ML model development. Project is fully created on the Yandex Cloud and covers:
 
 - Creation of a model (python, sklearn, xgboost)
 - Its tracking while training and validating (Yandex Cloud, s3-bucket, MLflow)
@@ -106,8 +106,3 @@ from project/orchestration_manager
 `pipenv shell` > `cd ..` > `python send-data.py 2015-5-30 100`
 
 Use the data from 2015-2 to 2015-7
-
-!!! Dont forget to run `docker-compose down` when you finish your review.
-
-If you have a questions - feel free to ping me in slack mlops-zoomcamp-channel,
-Konstantin Kolmakov
